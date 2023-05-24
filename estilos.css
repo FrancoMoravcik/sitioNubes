@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400;1,800&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 2500px;
+    margin: 0px 50px;
+background-color: aliceblue;
+}
+
+/* Primer Div */
+
+.h31 {
+    color: #4788C7;
+}
+
+.span1 {
+ color: #3a6ea1;
+ font-weight: bold;
+}
+
+/* Seccion 1 */
+
+.div1Seccion1 {
+    width: 50%;
+}
+
+.p1 {
+    color: #4788C7;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.img1 {
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.div2Seccion1 {
+    width: 50%;
+}
+
+.h41 {
+    color: #3a6ea1;
+    font-weight: bold;
+}
+
+/* Seccion 2 */
+
+.imgNubes1 {
+    width: 800px;
+}
+
+
+.imgNubes2 {
+    width: 415px;
+     height: 67px;
+     margin-left: 25px;
+}
+
+/* Seccion 3 */
+
+.seccion3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px 400px;  
+    grid-template-areas: "div1Seccion3 div2Seccion3 div5Seccion3"
+                         "div3Seccion3 div4Seccion3 div5Seccion3" ;
+
+}
+
+.div1Seccion3 {
+    grid-area: div1Seccion3;
+   
+}
+
+.imgSeccion3 {
+    width: 382px;
+    height: 250px;
+}
+
+.pSeccion3 {
+    width: 382px;
+    font-size: 14px;
+}
+
+.div2Seccion3 {
+    grid-area: div2Seccion3;
+}
+
+.div3Seccion3 {
+    grid-area: div3Seccion3;
+}
+
+.div4Seccion3 {
+    grid-area: div4Seccion3;
+}
+
+.div5Seccion3 {
+    grid-area: div5Seccion3;
+}
+
+.imgGrandeSeccion3 {
+    width: 416.3px;
+}
+
+/* Seccion 4 */
+
+.imgFrutilla {
+    margin-top: 200px;
+    width: 1245px;
+}
+
+/* Seccion 5*/
+
+.seccion5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 425px 400px;
+    grid-template-areas: "div1Seccion5 div2Seccion5 div3Seccion5"
+                         "div4Seccion5 div5Seccion5 div6Seccion5";
+
+    padding-bottom: 50px; 
+                        }
+
+.div1Seccion5 {
+    grid-area: div1Seccion5;
+}
+
+.div2Seccion5 {
+    grid-area: div2Seccion5;
+}
+
+.div3Seccion5 {
+    grid-area: div3Seccion5;
+}
+
+.div4Seccion5 {
+    grid-area: div4Seccion5;
+}
+
+.div5Seccion5 {
+    grid-area: div5Seccion5;
+    margin-top: 150px;
+    color: #4788C7;
+    font-size: 18px;
+    display: flex;
+    align-items: start;
+}
+
+.div6Seccion5 {
+    grid-area: div6Seccion5;
+}
+
+.pSeccion5 {
+    width: 382px;
+    font-size: 15px;
+}
